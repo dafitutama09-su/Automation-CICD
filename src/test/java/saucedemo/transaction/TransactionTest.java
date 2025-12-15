@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 public class TransactionTest extends BaseTest {
 
+    //Transaksi berhasil
     @Test(groups = {"smoke"})
     public void transactionSuccess() {
         WebDriver driver = DriverManager.getDriver();
