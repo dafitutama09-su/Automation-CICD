@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest{
 
+    //Login berhasil
     @Test(groups = {"smoke"})
     public void testLogin() {
         LoginPage loginPage = new LoginPage(DriverManager.getDriver());
